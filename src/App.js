@@ -6,14 +6,6 @@ import MovieCard from "./MovieCard";
 const API_KEY = "7065bd53";
 const API_URL = `https://www.omdbapi.com?apikey=${API_KEY}`;
 
-const movie1 = {
-  Title: "Pokémon: Detective Pikachu",
-  Year: "2019",
-  imdbID: "tt5884052",
-  Type: "movie",
-  Poster: "N/A",
-};
-
 function App() {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -26,6 +18,7 @@ function App() {
   useEffect(() => {
     searchMovies("Pokemon");
   }, []);
+  
   return (
     <div className="App">
       <div className="app">
