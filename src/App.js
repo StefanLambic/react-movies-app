@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 // 7065bd53
 const API_KEY = "7065bd53";
-const API_URL = `https://www.omdbapi.com?apikey=${API_KEY}`;
+const API_URL = `http://www.omdbapi.com?apikey=${API_KEY}`;
 
 const movie1 = {
   Title: "Pokémon: Detective Pikachu",
