@@ -2,7 +2,7 @@ import "./App.css";
 import SearchIcon from "./search.svg";
 import React, { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
-// 7065bd53
+
 const API_KEY = "7065bd53";
 const API_URL = `https://www.omdbapi.com?apikey=${API_KEY}`;
 
